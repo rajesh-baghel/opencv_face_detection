@@ -65,7 +65,7 @@ while True:
             cv2.imshow('faces',image)
     
     except:
-        cv2.putText(image,"found",(150,150),cv2.FONT_HERSHEY_COMPLEX,1,(255,0,0),2)
+        cv2.putText(image,"Not found",(150,150),cv2.FONT_HERSHEY_COMPLEX,1,(255,0,0),2)
         cv2.imshow('faces',image)
         pass
         
